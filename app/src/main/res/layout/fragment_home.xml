@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    >
+
+    <TextView
+        android:id="@+id/campusBtn"
+        android:layout_width="353dp"
+        android:layout_height="284dp"
+        android:background="@drawable/boxes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <Button
+        android:id="@+id/YourContactBtn"
+        android:layout_width="322dp"
+        android:layout_height="51dp"
+        android:text="@string/yours"
+        app:layout_constraintBottom_toBottomOf="@+id/campusBtn"
+        app:layout_constraintEnd_toEndOf="@+id/campusBtn"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="@+id/campusBtn"
+        app:layout_constraintTop_toTopOf="@+id/campusBtn"
+        app:layout_constraintVertical_bias="0.253" />
+
+    <Button
+        android:id="@+id/FakeAudioBtn"
+        android:layout_width="322dp"
+        android:layout_height="51dp"
+        android:text="@string/fake_audio"
+        app:layout_constraintBottom_toBottomOf="@+id/campusBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/campusBtn"
+        app:layout_constraintVertical_bias="0.901" />
+
+    <Button
+        android:id="@+id/CampusContactBtn"
+        android:layout_width="322dp"
+        android:layout_height="51dp"
+        android:text="@string/campus"
+        app:layout_constraintBottom_toBottomOf="@+id/campusBtn"
+        app:layout_constraintEnd_toEndOf="@+id/campusBtn"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="@+id/campusBtn"
+        app:layout_constraintTop_toTopOf="@+id/campusBtn"
+        app:layout_constraintVertical_bias="0.461" />
+
+
+    <Button
+        android:id="@+id/emergencyContactBtn"
+        android:layout_width="322dp"
+        android:layout_height="51dp"
+        android:text="@string/emergency"
+        app:layout_constraintBottom_toBottomOf="@+id/campusBtn"
+        app:layout_constraintEnd_toEndOf="@+id/campusBtn"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="@+id/campusBtn"
+        app:layout_constraintTop_toTopOf="@+id/campusBtn"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <TextView
+        android:id="@+id/contactsTxt"
+        android:layout_width="190dp"
+        android:layout_height="57dp"
+        android:text="@string/contactsTxt"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="@+id/campusBtn"
+        app:layout_constraintEnd_toEndOf="@+id/campusBtn"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="@+id/campusBtn"
+        app:layout_constraintTop_toTopOf="@+id/campusBtn"
+        app:layout_constraintVertical_bias="0.073" />
+
+
+    <Button
+        android:id="@+id/RecordLocationBtn"
+        android:layout_width="322dp"
+        android:layout_height="51dp"
+        android:text="@string/record_location"
+        app:layout_constraintBottom_toBottomOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.376" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="353dp"
+        android:layout_height="240dp"
+        android:background="@drawable/boxes"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
+
+    <Button
+        android:id="@+id/ReportBtn"
+        android:layout_width="322dp"
+        android:layout_height="51dp"
+        android:text="@string/report"
+        app:layout_constraintBottom_toBottomOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.889" />
+
+    <Button
+        android:id="@+id/emergencyProceduresBtn"
+        android:layout_width="322dp"
+        android:layout_height="51dp"
+        android:text="@string/emergency_procedures"
+        app:layout_constraintBottom_toBottomOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.633" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="126dp"
+        android:layout_height="45dp"
+        android:text="@string/other"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.133" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
